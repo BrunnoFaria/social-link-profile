@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'fonte';
+}
+
+:root {
+   --White: hsl(0, 0%, 100%);
+    --Grey: hsl(0, 0%, 20%);
+    --DarkGrey: hsl(0, 0%, 12%);
+    --OffBlack: hsl(0, 0%, 8%);
+    --Green: hsl(75, 94%, 57%);
+}
+
+@font-face {
+    font-family: 'fonte';
+    src: url(./assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+body {
+    background-color: var(--OffBlack);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container-externo {
+    background-color: var(--Grey);
+}
+
+.container-interno {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #191919;
+    padding: 10px;    
+}
+
+img {
+    width: 90px;
+    border-radius: 50%;
+    margin-top: 40px;
+}
+
+h1 {
+    font-size: 25px;
+    color: white;
+    font-weight: 400;
+    margin-top: 10px;    
+}
+
+.local {
+    color: var(--Green);
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.perfil {
+    color: #e6d7d7;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+button {
+    width: 300px;
+    height: 45px;
+    border-radius: 7px;
+    margin-top: 15px;
+    background-color:#363434;
+    color: var(--White);
+    border: none; 
+    font-weight: 700px; 
+    transition: 0.6s;
+}
+
+button:hover {
+    background-color: var(--Green);
+    color: black;
+    transition: 0.6s;
+}
+
+.insta {
+    margin-bottom: 20px;
+}
